@@ -1,0 +1,31 @@
+{
+    "name": "zendframework/zend-expressive",
+    "description": "PSR-7 Middleware Microframework based on Stratigility",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "keywords": [
+        "http",
+        "middleware",
+        "psr",
+        "psr-7"
+    ],
+    "require": {
+        "zendframework/zend-stratigility": "^1.1",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "zendframework/zend-diactoros": "^1.1",
+        "phpunit/phpunit": "^4.7",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "Zend\\Expressive\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "ZendTest\\Expressive\\": "test/"
+      }
+    }
+}
